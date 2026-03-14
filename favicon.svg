@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Rose icon">
+  <defs>
+    <radialGradient id="bg" cx="28%" cy="24%" r="90%">
+      <stop offset="0%" stop-color="#fff7ef" />
+      <stop offset="60%" stop-color="#ffd6cf" />
+      <stop offset="100%" stop-color="#f2b2be" />
+    </radialGradient>
+    <radialGradient id="petal" cx="34%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffb7cf" />
+      <stop offset="62%" stop-color="#df4f7f" />
+      <stop offset="100%" stop-color="#b72f5d" />
+    </radialGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5ab88a" />
+      <stop offset="100%" stop-color="#2a7a57" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" fill="url(#bg)" />
+
+  <g transform="translate(32 26)">
+    <ellipse rx="12" ry="5.2" fill="url(#petal)" transform="rotate(0)" />
+    <ellipse rx="12" ry="5.2" fill="url(#petal)" transform="rotate(30)" />
+    <ellipse rx="12" ry="5.2" fill="url(#petal)" transform="rotate(60)" />
+    <ellipse rx="12" ry="5.2" fill="url(#petal)" transform="rotate(90)" />
+    <circle r="4.4" fill="#ffd987" />
+  </g>
+
+  <rect x="30.4" y="30" width="3.2" height="22" rx="1.6" fill="url(#stem)" />
+  <path d="M32 37 C26 35 23 38 23 41 C26 42 29 41 32 39" fill="#43996f" />
+  <path d="M32 44 C38 42 41 45 41 48 C38 49 35 48 32 46" fill="#3f8f69" />
+</svg>
